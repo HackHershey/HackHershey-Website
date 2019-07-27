@@ -269,20 +269,50 @@ const Index = () => (
           right?
         </AboutDesc>
       </About>
-      <Contact offset={4}>
+      
+      <Contact offset={3.2}>
         <Inner>
-          <Title>Get in touch</Title>
-          <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
-          </ContactText>
+          <BlackTitle>Contact Us!</BlackTitle>
+          <SponsorText>Feel Free To <a href="mailto:mcronin@hershey.k12.pa.us">Reach Out</a> To Us For Any Reason.  We’re Happy To Help!</SponsorText>
+          <ContactMobileWrapper>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>President<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>Sponsorships<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>Advertizing<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>Treasurer<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>Untitled<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>Untitled<br></br>📩</a></ContactMobileText>
+          </ContactMobileWrapper>
+          <ContactWrapper>
+          <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
+          Michael Cronin<br></br>President<br></br>📩
+            </ContactCard>
+            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
+            Michael Cronin<br></br>Sponsorships<br></br>📩
+            </ContactCard>
+            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
+            Michael Cronin<br></br>Advertizing<br></br>📩
+            </ContactCard>
+            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
+            Michael Cronin<br></br>Treasurer<br></br>📩
+            </ContactCard>
+            <ContactCard photo= {Michael}bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
+            Michael Cronin<br></br>Untitled<br></br>📩
+            </ContactCard>
+            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
+            Michael Cronin<br></br>Untitled<br></br>📩
+            </ContactCard>
+          </ContactWrapper>
+          
+          <MapSpacer></MapSpacer>
+
+          <MapWrapper> {/*use about box w/ shadow and the tirangle title*/}
+            <MapCard title="See You There!">
+              HackHershey will take place at Hershey High School on December XX, 2019
+              <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
+            </MapCard>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3043.9623490138765!2d-76.64327938416601!3d40.2765865793817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8a4b34b4586cb%3A0xf9fdad88180af9dc!2s550+Homestead+Rd%2C+Hershey%2C+PA+17033!5e0!3m2!1sen!2sus!4v1562268471292!5m2!1sen!2sus" width="600" height="400" frameborder="0"></iframe>
+          </MapWrapper>
         </Inner>
-        <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">GitHub Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
-        </Footer>
       </Contact>
     </Parallax>
   </>
