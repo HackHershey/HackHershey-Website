@@ -5,27 +5,20 @@ import { Parallax } from 'react-spring/renderprops-addons.cjs'
 
 // Components
 import Layout from '../components/Layout'
-import FAQCard from '../components/FAQCard'
-import AboutCard from '../components/AboutCard'
-import ContactCard from '../components/ContactCard'
-import MapCard from '../components/MapCard'
 import ProjectCard from '../components/ProjectCard'
 
 // Elements
 import Inner from '../elements/Inner'
-import { Title, BlackTitle, BigTitle, Subtitle } from '../elements/Titles'
-import { Divider, DividerMobile } from '../elements/Dividers'
+import { Title, BigTitle, Subtitle } from '../elements/Titles'
 
 // Views
 import Hero from '../views/Hero'
 import About from '../views/About'
-import FAQ from '../views/FAQ'
-import Sponsors from '../views/Sponsors'
 import Contact from '../views/Contact'
-//add footer
 
 import avatar from '../images/avatar.jpg'
 
+<<<<<<< HEAD
 import CPRLogo from '../images/CPRLogo.png'
 import HarrisburgUniversityLogo from '../images/HarrisburgUniversityLogo.jpg'
 import HersheyLogo from '../images/HersheyLogo.png'
@@ -37,6 +30,10 @@ import Michael from "../images/Michael.png"
 
 const AboutWrapper = styled.div`
   ${tw`flex flex-wrap justify-between`};
+=======
+const ProjectsWrapper = styled.div`
+  ${tw`flex flex-wrap justify-between mt-8`};
+>>>>>>> parent of 50a1277... Update index.jsx
   display: grid;
   grid-gap: 4rem;
   grid-template-columns: repeat(2, 1fr);
