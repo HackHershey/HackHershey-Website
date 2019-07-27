@@ -85,8 +85,9 @@ const ContactWrapper = styled.div`
     margin-top: -4rem;
   }
 `
+//hiddden (below) used to be invisible
 const ContactMobileWrapper = styled.div`
-  ${tw`flex flex-wrap justify-between visible md:hidden`};
+  ${tw`flex flex-wrap justify-between visible md:hidden`}
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
@@ -269,6 +270,21 @@ const Index = () => (
           right?
         </AboutDesc>
       </About>
+
+      <SponsorSpacer></SponsorSpacer>
+
+      <Sponsors offset={2.1}>
+        <BlackTitle>Our Past Sponsors</BlackTitle>
+        <SponsorText>Interested in sponsoring HackHershey?  Check out our <a href={Prospectus} target="_blank">sponsorship packet</a> and email our sponsorship coordinator at <a href="mailto:mcronin@hershey.k12.pa.us">mcronin@hershey.k12.pa.us</a></SponsorText>
+        <br /><br />
+        <td style={{ textAlign:'center'}} onClick={()=> window.open("https://www.hersheys.com", "_blank")}><SponsorsPhotos src={HersheyLogo} alt="The Hershey Company" /></td>
+        <SponsorsWrapper>
+          <td style={{ textAlign:'center'}} onClick={()=> window.open("http://www.forcollegeprep.com/", "_blank")}><SponsorsPhotos src={CPRLogo} alt="College Preparations and Resources" /></td>
+          <td style={{ textAlign:'center'}} onClick={()=> window.open("https://harrisburgu.edu/", "_blank")}><SponsorsPhotos src={HarrisburgUniversityLogo} alt="Harrisburg University" /></td>
+        </SponsorsWrapper>
+      </Sponsors>
+
+      <ContactSpacer></ContactSpacer>
 
       <Contact offset={3.2}>
         <Inner>
