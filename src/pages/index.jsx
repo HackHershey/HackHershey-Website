@@ -19,6 +19,7 @@ import Contact from '../views/Contact'
 import avatar from '../images/avatar.jpg'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import CPRLogo from '../images/CPRLogo.png'
 import HarrisburgUniversityLogo from '../images/HarrisburgUniversityLogo.jpg'
 import HersheyLogo from '../images/HersheyLogo.png'
@@ -31,6 +32,8 @@ import Michael from "../images/Michael.png"
 const AboutWrapper = styled.div`
   ${tw`flex flex-wrap justify-between`};
 =======
+=======
+>>>>>>> parent of 50a1277... Update index.jsx
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
 >>>>>>> parent of 50a1277... Update index.jsx
