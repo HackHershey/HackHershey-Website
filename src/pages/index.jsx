@@ -77,11 +77,10 @@ const Index = () => (
     <Layout />
     <Parallax pages={5}>
       <Hero offset={0}>
-        <BigTitle>
-          Hello, <br /> I'm John Doe.
-        </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <BigTitle style={{ textAlign:'center'}}>HackHershey</BigTitle>
+        <Subtitle style={{ textAlign:'center'}}>Hershey High School's very own hackathon!<br /><br /> Date TBD</Subtitle>
       </Hero>
+      
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
