@@ -86,7 +86,7 @@ const ContactWrapper = styled.div`
   }
 `
 const ContactMobileWrapper = styled.div`
-  ${tw`flex flex-wrap justify-between visible md:invisible`};
+  ${tw`flex flex-wrap justify-between visible md:hidden`};
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
