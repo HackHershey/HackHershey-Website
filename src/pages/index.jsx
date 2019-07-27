@@ -251,24 +251,24 @@ const Index = () => (
         <Subtitle style={{ textAlign:'center'}}>Hershey High School's very own hackathon!<br /><br /> Date TBD</Subtitle>
       </Hero>
 
-      <AboutSpacer></AboutSpacer>
 
-      <About offset={1}>
-        <BlackTitle>About HackHershey</BlackTitle>
-        <AboutWrapper>
-          <AboutCard title="Our Sophomore Hackathon" bg= "${props => props.bg}">
-            HackHershey 2019 will be Hershey High School’s second hackathon.  Students from Across Pennsylvania Will Come Together To Code Their Ideas Into Reality And Compete For Prizes!  All students are welcome - we're beginner friendly!
-          </AboutCard>
-          <AboutPhotos src={Michael} alt="HackHershey 2018 Coders" />
-        </AboutWrapper>
-        <AboutWrapper>
-          <AboutPhotos src={Michael} alt="HackHershey 2018 Coders" />
-          <AboutCard title="A Great Start" bg= "${props => props.bg}">
-            Last year over 75 students from 25 different schools came to HackHershey to learn, get fresh swag, eat, play Smash, win amazing prizes, and create <a href="https://hackhershey.devpost.com/" target="_blank">amazing projects!</a>  
-          </AboutCard>
-        </AboutWrapper>
+      <About offset={3}>
+        <Title>About</Title>
+        <AboutHero>
+          <Avatar src={avatar} alt="John Doe" />
+          <AboutSub>
+            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
+            Emoji into my speech to better express myself. Winky face.
+          </AboutSub>
+        </AboutHero>
+        <AboutDesc>
+          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
+          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
+          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
+          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
+          right?
+        </AboutDesc>
       </About>
-
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
