@@ -271,6 +271,33 @@ const Index = () => (
         </AboutDesc>
       </About>
 
+      <FAQSpacer></FAQSpacer>
+
+      <DividerMobile bg='chocolate' clipPath="polygon(0 5%, 100% 10%, 100% 90%, 0 85%)" speed={0.4} offset={1.35} factor={1.5}/>
+      <FAQ offset={1.8}>
+        <Title>FAQ</Title>
+        <FAQWrapper>
+          <FAQCard title="What is HackHershey" bg= "${props => props.bg}">
+            HackHershey is a student-run hackathon for high school and middle school students.  Students will have 10 hours to work together in teams of up to 4 students to bring any idea they want into reality!
+          </FAQCard>
+          <FAQCard title="Who can Attend" bg= "${props => props.bg}">
+            HackHershey welcomes all high school and middle school students to participate! 
+          </FAQCard>
+          <FAQCard title="What should I bring to HackHershey" bg= "${props => props.bg}">
+            Bring your charged laptop, phone, and any other devices you need to work – and don’t forget chargers!  Please make sure any software you may need is already downloaded as well!  Also, wear something comfortable, you will be hacking all day!
+          </FAQCard>
+          <FAQCard title="How much does Hackhershey cost" bg= "${props => props.bg}">
+            HackHershey is completely free for everyone!
+          </FAQCard>
+          <FAQCard title="Will there be food" bg= "${props => props.bg}">
+            Yes! HackHershey will have plenty of free food, Including Breakfast, lunch, dinner, and snacks!
+          </FAQCard>
+          <FAQCard title="When is HackHershey" bg= "${props => props.bg}">
+            HackHershey will take place at Hershey High School on --- TBD!
+          </FAQCard>
+        </FAQWrapper>
+      </FAQ>
+
       <SponsorSpacer></SponsorSpacer>
 
       <Sponsors offset={2.1}>
