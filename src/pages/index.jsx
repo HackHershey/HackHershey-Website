@@ -255,7 +255,9 @@ const Index = () => (
 
       <About offset={1}>
         <BlackTitle>About HackHershey</BlackTitle>
-        
+        <AboutWrapper>
+          
+        </AboutWrapper>
       </About>
 
       <FAQSpacer></FAQSpacer>
