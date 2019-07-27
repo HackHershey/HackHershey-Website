@@ -34,6 +34,175 @@ import Michael from "../images/Michael.png"
 
 import avatar from '../images/avatar.jpg'
 
+const AboutWrapper = styled.div`
+  ${tw`flex flex-wrap justify-between`};
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(2, 1fr);
+  @media (max-width: 1200) {
+    grid-gap: 3rem;
+  }
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+`
+const FAQWrapper = styled.div`
+  ${tw`flex flex-wrap justify-between`};
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  @media (max-width: 1200px) {
+    grid-gap: 3rem;
+  }
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+`
+const SponsorsWrapper = styled.div`
+  ${tw`flex flex-wrap justify-between`};
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+  }
+  @media (max-width: 900px) {
+    grid-template-columns: 2;
+    grid-gap: 0rem;
+  }
+`
+const ContactWrapper = styled.div`
+  ${tw`flex flex-wrap justify-between invisible md:visible`};
+  display: grid;
+  grid-gap: 0rem;
+  grid-template-columns: repeat(3, 1fr);
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+    margin-top: -4rem;
+  }
+`
+const ContactMobileWrapper = styled.div`
+  ${tw`flex flex-wrap justify-between visible md:invisible`};
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  @media (min-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+    margin-top: -6rem;
+  }
+`
+const MapWrapper = styled.div`
+  ${tw`flex flex-wrap justify-between invisible md:visible`};
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  @media (max-width: 1200px) {
+    grid-gap: 3rem;
+  }
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+`
+{/*spacers are named after section beneth them...ik this is garbage code. sorry.*/}
+const AboutSpacer = styled.div`
+${tw`flex flex-wrap justify-between sm:py-32 md:p-0 lg:py-12`};
+display: block;
+@media (max-width: 1200px) {
+  grid-gap: 3rem;
+}
+@media (max-width: 900px) {
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+`
+const FAQSpacer = styled.div`
+${tw`flex flex-wrap justify-between sm:py-40 md:p-0 lg:py-8`};
+display: block;
+@media (max-width: 1200px) {
+  grid-gap: 3rem;
+}
+@media (max-width: 900px) {
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+`
+const SponsorSpacer = styled.div`
+${tw`flex flex-wrap justify-between sm:py-24 md:py-4 lg:py-8`};
+display: block;
+@media (max-width: 1200px) {
+  grid-gap: 3rem;
+}
+@media (max-width: 900px) {
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+`
+const ContactSpacer = styled.div`
+${tw`flex flex-wrap justify-between pt-8 md:p-8 lg:py-10`};
+display: block;
+@media (max-width: 1200px) {
+  grid-gap: 3rem;
+}
+@media (max-width: 900px) {
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+`
+const MapSpacer = styled.div`
+${tw`flex flex-wrap justify-between sm:py-24 md:p-10`};
+display: block;
+@media (max-width: 1200px) {
+  grid-gap: 3rem;
+}
+@media (max-width: 900px) {
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+`
+const FooterSpacer = styled.div`
+${tw`flex flex-wrap justify-between sm:py-0 md:p-64 md:-mt-64`};
+display: block;
+@media (max-width: 1200px) {
+  grid-gap: 3rem;
+}
+@media (max-width: 900px) {
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+`
+
+const AboutPhotos = styled.img`
+  ${tw` rounded-lg shadow-lower mt-4 w-full mb-4 `};
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+&:hover {
+  opacity
+}
+`
+const SponsorsPhotos = styled.img`
+  ${tw` rounded-lg mt-4 w-1/2 mb-4 `};
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+`
+
+const SponsorText = styled.div`
+  ${tw`text-midnightBlue text-md md:text-lg xl:text-xl tracking-wide font-sans mb-4`};
+`
+const ContactMobileText = styled.div`
+${tw`pt-8`};
+${tw`text-midnightBlue uppercase text-xs md:text-lg xl:text-xl tracking-wide font-sans -mt-8 text-center`};
+`
+const FooterText = styled.footer`
+  ${tw`text-center text-white absolute pin-b w-full pb-6 pt-4 md:pb-6 font-sans text-md lg:text-lg`};
+  background: midnightBlue;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  `
+
+//beloww this is old
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
   display: grid;
@@ -71,6 +240,7 @@ const ContactText = styled.p`
 const Footer = styled.footer`
   ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
 `
+//above this is old
 
 const Index = () => (
   <>
@@ -80,7 +250,7 @@ const Index = () => (
         <BigTitle style={{ textAlign:'center'}}>HackHershey</BigTitle>
         <Subtitle style={{ textAlign:'center'}}>Hershey High School's very own hackathon!<br /><br /> Date TBD</Subtitle>
       </Hero>
-      
+
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
