@@ -1,38 +1,44 @@
-import React from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import tw from 'tailwind.macro'
+import { rotateAnimation } from '../styles/animations'
+import triangle from '../images/triangle.svg'
+import blackTriangle from '../images/blackTriangle.svg'
 
-const Wrapper = styled.a`
-  width: 100%;
-  ${tw`shadow-sm relative no-underline rounded-lg pt-12 pb-4 text-white`};
-  background: transparent;
-  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  opacity: .95;
-  &:hover {
-    opacity: 1;
+export const Title = styled.h1`
+  ${tw`text-4xl lg:text-5xl font-sans text-white mb-8 tracking-wide relative inline-block`};
+  
+  &:before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: url(${triangle});
+    position: absolute;
+    background-size: 40px;
+    ${rotateAnimation('4s')};
+    left: -60px;
+    top: 5px;
   }
 `
-const Text = styled.div`
-${tw`font-sans pt-4 text-black text-xl capitalize`};
-line-height: 1.625;
+export const BlackTitle = styled.h1`
+  ${tw`text-4xl lg:text-5xl font-sans text-chocolate mb-8 tracking-wide relative inline-block`};
+  &:before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: url(${blackTriangle});
+    position: absolute;
+    background-size: 40px;
+    ${rotateAnimation('4s')};
+    left: -60px;
+    top: 5px;
+  }
 `
-const Title = styled.div`
-  ${tw`text-midnightBlue uppercase text-md md:text-lg xl:text-xl tracking-wide font-sans -mt-8`};
+export const BigTitle = styled.h1`
+  ${tw`text-5xl md:text-6xl font-sans text-white mb-6 tracking-wide`};
+  text-shadow: 0 5px 35px rgba(255, 255, 255, 0.15);
 `
-
-const AboutCard = ({ title, link, children, bg }) => (
-  <Wrapper href={link} target="_blank" rel="noopener noreferrer" bg='white'>
-    <Title>{title}</Title>
-    <Text>{children}</Text>
-  </Wrapper>
-)
-
-export default AboutCard
-
-AboutCard.propTypes = {
-  title: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
-  children: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
-  bg: PropTypes.string.isRequired,
-}
+export const Subtitle = styled.p`
+  ${tw`text-2xl lg:text-4xl font-sans text-white mt-8 tracking-wide`};
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+`
