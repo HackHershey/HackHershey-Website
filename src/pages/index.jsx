@@ -5,19 +5,36 @@ import { Parallax } from 'react-spring/renderprops-addons.cjs'
 
 // Components
 import Layout from '../components/Layout'
+import FAQCard from '../components/FAQCard'
+import AboutCard from '../components/AboutCard'
+import ContactCard from '../components/ContactCard'
+import MapCard from '../components/MapCard'
 import ProjectCard from '../components/ProjectCard'
 
 // Elements
 import Inner from '../elements/Inner'
-import { Title, BigTitle, Subtitle } from '../elements/Titles'
+import { Title, BlackTitle, BigTitle, Subtitle } from '../elements/Titles'
+import { Divider, DividerMobile } from '../elements/Dividers'
 
 // Views
 import Hero from '../views/Hero'
 import Projects from '../views/Projects'
 import About from '../views/About'
+import FAQ from '../views/FAQ'
+import Sponsors from '../views/Sponsors'
 import Contact from '../views/Contact'
+//add footer
 
 import avatar from '../images/avatar.jpg'
+
+import CPRLogo from '../images/CPRLogo.png'
+import HarrisburgUniversityLogo from '../images/HarrisburgUniversityLogo.jpg'
+import HersheyLogo from '../images/HersheyLogo.png'
+import coders from "../images/coders.png"
+import coders2 from "../images/coders2.png"
+import Prospectus from "../images/SponsorshipProspectus.pdf"
+
+import Michael from "../images/Michael.png"
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
