@@ -261,10 +261,10 @@ const Index = () => (
           <AboutCard title="Our Sophomore Hackathon" bg= "${props => props.bg}">
             HackHershey 2019 will be Hershey High School’s second hackathon.  Students from Across Pennsylvania Will Come Together To Code Their Ideas Into Reality And Compete For Prizes!  All students are welcome - we're beginner friendly!
           </AboutCard>
-          <AboutPhotos src={coders} alt="HackHershey 2018 Coders" />
+          <AboutPhotos src={Michael} alt="HackHershey 2018 Coders" />
         </AboutWrapper>
         <AboutWrapper>
-          <AboutPhotos src={coders2} alt="HackHershey 2018 Coders" />
+          <AboutPhotos src={Michael} alt="HackHershey 2018 Coders" />
           <AboutCard title="A Great Start" bg= "${props => props.bg}">
             Last year over 75 students from 25 different schools came to HackHershey to learn, get fresh swag, eat, play Smash, win amazing prizes, and create <a href="https://hackhershey.devpost.com/" target="_blank">amazing projects!</a>  
           </AboutCard>
