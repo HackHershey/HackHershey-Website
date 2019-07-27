@@ -269,7 +269,7 @@ const Index = () => (
           right?
         </AboutDesc>
       </About>
-      
+
       <Contact offset={3.2}>
         <Inner>
           <BlackTitle>Contact Us!</BlackTitle>
@@ -314,6 +314,11 @@ const Index = () => (
           </MapWrapper>
         </Inner>
       </Contact>
+
+      <FooterText>
+        Made with ❤️️ by The HackHershey Team.{' '} <br></br>
+        Check out our <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
+      </FooterText>
     </Parallax>
   </>
 )
