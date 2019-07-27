@@ -12,7 +12,6 @@ import { Title, BigTitle, Subtitle } from '../elements/Titles'
 
 // Views
 import Hero from '../views/Hero'
-import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
