@@ -255,7 +255,12 @@ const Index = () => (
 
       <About offset={1}>
         <BlackTitle>About HackHershey</BlackTitle>
-      
+        <AboutWrapper>
+          <AboutCard title="Our Sophomore Hackathon" bg= "${props => props.bg}">
+            HackHershey 2019 will be Hershey High School’s second hackathon.  Students from Across Pennsylvania Will Come Together To Code Their Ideas Into Reality And Compete For Prizes!  All students are welcome - we're beginner friendly!
+          </AboutCard>
+        </AboutWrapper>
+
       </About>
 
       <FAQSpacer></FAQSpacer>
