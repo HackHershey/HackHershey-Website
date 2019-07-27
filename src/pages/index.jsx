@@ -18,7 +18,6 @@ import { Divider, DividerMobile } from '../elements/Dividers'
 
 // Views
 import Hero from '../views/Hero'
-import Projects from '../views/Projects'
 import About from '../views/About'
 import FAQ from '../views/FAQ'
 import Sponsors from '../views/Sponsors'
