@@ -30,8 +30,8 @@ import avatar from '../images/avatar.jpg'
 import CPRLogo from '../images/CPRLogo.png'
 import HarrisburgUniversityLogo from '../images/HarrisburgUniversityLogo.jpg'
 import HersheyLogo from '../images/HersheyLogo.png'
-import coders from "../images/coders.png"
-import coders2 from "../images/coders2.png"
+//import coders from "../images/coders.png"
+//import coders2 from "../images/coders2.png"
 import Prospectus from "../images/SponsorshipProspectus.pdf"
 
 import Michael from "../images/Michael.png"
