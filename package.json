@@ -53,11 +53,11 @@
     "prettier": "^1.18.2"
   },
   "repository": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "url": "https://github.com/mcronin03/HackHershey-Website",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara/issues"
+    "url": "https://github.com/mcronin03/HackHershey-Website/issues"
   },
-  "homepage": "https://cara.lekoarts.de"
+  "homepage": "https://www.hackHershey.com"
 }
