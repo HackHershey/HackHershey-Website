@@ -224,7 +224,7 @@ const Index = () => (
         <AboutWrapper>
           <AboutPhotos src={coders2} alt="HackHershey 2018 Coders" />
           <AboutCard title="A Great Start" bg= "${props => props.bg}">
-            Last year over 75 students from 25 different schools came to HackHershey to learn, get fresh swag, eat, play Smash, win amazing prizes, and create <a href="https://hackhershey.devpost.com/" target="_blank">amazing projects!</a>  
+            Last year over 75 students from 25 different schools came to HackHershey to learn, get fresh swag, eat, play Smash, win amazing prizes, and create <a href="https://hackhershey.devpost.com/" target="_blank" rel="noopener">amazing projects!</a>  
           </AboutCard>
         </AboutWrapper>
       </About>
@@ -262,10 +262,10 @@ const Index = () => (
         <BlackTitle>Our Past Sponsors</BlackTitle>
         <SponsorText>Interested in sponsoring HackHershey?  Check out our <a href={Prospectus} target="_blank">sponsorship packet</a> and email our sponsorship coordinator at <a href="mailto:mcronin@hershey.k12.pa.us">mcronin@hershey.k12.pa.us</a></SponsorText>
         <br /><br />
-        <td style={{ textAlign:'center'}} onClick={()=> window.open("https://www.hersheys.com", "_blank")}><SponsorsPhotos src={HersheyLogo} alt="The Hershey Company" /></td>
+        <td style={{ textAlign:'center'}} onClick={()=> window.open("https://www.hersheys.com", "_blank", "noopener")}><SponsorsPhotos src={HersheyLogo} alt="The Hershey Company" /></td>
         <SponsorsWrapper>
-          <td style={{ textAlign:'center'}} onClick={()=> window.open("http://www.forcollegeprep.com/", "_blank")}><SponsorsPhotos src={CPRLogo} alt="College Preparations and Resources" /></td>
-          <td style={{ textAlign:'center'}} onClick={()=> window.open("https://harrisburgu.edu/", "_blank")}><SponsorsPhotos src={HarrisburgUniversityLogo} alt="Harrisburg University" /></td>
+          <td style={{ textAlign:'center'}} onClick={()=> window.open("http://www.forcollegeprep.com/", "_blank", "noopener")}><SponsorsPhotos src={CPRLogo} alt="College Preparations and Resources" /></td>
+          <td style={{ textAlign:'center'}} onClick={()=> window.open("https://harrisburgu.edu/", "_blank", "noopener")}><SponsorsPhotos src={HarrisburgUniversityLogo} alt="Harrisburg University" /></td>
         </SponsorsWrapper>
       </Sponsors>
 
