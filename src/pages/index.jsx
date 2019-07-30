@@ -318,7 +318,7 @@ const Index = () => (
 
       <FooterText>
         Made with ❤️️ by The HackHershey Team.{' '} <br></br>
-        Check out our <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
+        Check out our <a href="https://github.com/mcronin03/HackHershey-Website">Github Repository</a>.
       </FooterText>
     </Parallax>
   </>
