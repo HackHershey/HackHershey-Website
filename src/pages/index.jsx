@@ -143,7 +143,7 @@ display: block;
 }
 `
 const ContactSpacer = styled.div`
-${tw`flex flex-wrap justify-between pt-8 md:p-8 lg:py-10`};
+${tw`flex flex-wrap justify-between pt-8 md:p-8 lg:py-10 xl:pt-0`};
 display: block;
 @media (max-width: 1200px) {
   grid-gap: 3rem;
