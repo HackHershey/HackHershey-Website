@@ -5,7 +5,7 @@ import tw from 'tailwind.macro'
 
 const Wrapper = styled.a`
   width: 100%;
-  ${tw`shadow-sm relative no-underline rounded-lg pt-12 px-12 pb-4 text-white`};
+  ${tw`shadow-sm relative no-underline rounded-lg pt-8 px-8 pb-4 text-white`};
   background: ${props => props.bg};
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   opacity: .95;
