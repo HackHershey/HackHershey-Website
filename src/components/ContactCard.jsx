@@ -3,16 +3,6 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import tw from 'tailwind.macro'
 
-{/*const Wrapper = styled.a`
-  width: 100%;
-  ${tw`relative no-underline rounded-lg pt-12 pb-4 text-white hidden md:block`};
-  background: chocolate;
-  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  filter: grayscale(40%);
-  &:hover {
-    filter: grayscale(0%);
-  }
-`*/}
 const Wrapper = styled.div`
   ${tw`flex flex-col rounded-lg lg:flex-row items-center`};
   background: transparent;

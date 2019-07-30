@@ -13,7 +13,7 @@ import MapCard from '../components/MapCard'
 //Elements
 import Inner from '../elements/Inner'
 import { Title, BlackTitle, BigTitle, Subtitle } from '../elements/Titles'
-import { Divider, DividerMobile } from '../elements/Dividers'
+import { DividerMobile } from '../elements/Dividers'
 
 // Views
 import Hero from '../views/Hero'
@@ -31,8 +31,6 @@ import coders2 from "../images/Coders2.png"
 import Prospectus from "../images/SponsorshipProspectus.pdf"
 
 import Michael from "../images/Michael.png"
-
-import avatar from '../images/avatar.jpg'
 
 const AboutWrapper = styled.div`
   ${tw`flex flex-wrap justify-between`};
@@ -203,45 +201,6 @@ const FooterText = styled.footer`
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   `
 
-//beloww this is old
-const ProjectsWrapper = styled.div`
-  ${tw`flex flex-wrap justify-between mt-8`};
-  display: grid;
-  grid-gap: 4rem;
-  grid-template-columns: repeat(2, 1fr);
-  @media (max-width: 1200px) {
-    grid-gap: 3rem;
-  }
-  @media (max-width: 900px) {
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
-  }
-`
-
-const AboutHero = styled.div`
-  ${tw`flex flex-col lg:flex-row items-center mt-8`};
-`
-
-const Avatar = styled.img`
-  ${tw`rounded-full w-32 xl:w-48 shadow-lg h-auto`};
-`
-
-const AboutSub = styled.span`
-  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
-`
-
-const AboutDesc = styled.p`
-  ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
-`
-
-const ContactText = styled.p`
-  ${tw`text-grey-light font-sans text-xl md:text-2xl lg:text-3xl`};
-`
-
-const Footer = styled.footer`
-  ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
-`
-//above this is old
 
 const Index = () => (
   <>

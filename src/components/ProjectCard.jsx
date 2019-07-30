@@ -12,12 +12,10 @@ const Wrapper = styled.a`
     transform: translateY(-5px);
   }
 `
-
 const Text = styled.div`
   ${tw`opacity-75 font-sans text-sm md:text-base`};
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 `
-
 const Title = styled.div`
   ${tw`text-white uppercase text-2xl md:text-3xl xl:text-4xl tracking-wide font-sans pt-8`};
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
