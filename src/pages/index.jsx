@@ -274,17 +274,27 @@ const Index = () => (
       <Contact offset={3.2}>
         <Inner>
           <BlackTitle>Contact Us!</BlackTitle>
-          <form name="contact" netlify>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+          <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+
+                    <input type="hidden" name="bot-field" />
+
+                    <div className="field half first">
+                        <label htmlFor="name">Name</label>
+                        <input type="text" name="name" id="name" required/>
+                    </div>
+                    <div className="field half">
+                        <label htmlFor="email">Email</label>
+                        <input type="text" name="email" id="email" required/>
+                    </div>
+                    <div className="field">
+                        <label htmlFor="message">Message</label>
+                        <textarea name="message" id="message" rows="6" required></textarea>
+                    </div>
+                    <ul className="actions">
+                        <li><input type="submit" value="Send Message" className="special" /></li>
+                        <li><input type="reset" value="Clear" /></li>
+                    </ul>
+                </form>
           <SponsorText>Feel Free To <a href="mailto:mcronin@hershey.k12.pa.us">Reach Out</a> To Us For Any Reason.  We’re Happy To Help!</SponsorText>
           <ContactMobileWrapper>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>President<br></br>📩</a></ContactMobileText>
