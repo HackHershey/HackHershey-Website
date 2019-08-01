@@ -274,26 +274,46 @@ const Index = () => (
       <Contact offset={3.2}>
         <Inner>
           <BlackTitle>Contact Us!</BlackTitle>
-          <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+          <form
+        name="contact"
+        method="post"
+        action="/"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        onSubmit={handleSubmit}
+      >
+        {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+        <input type="hidden" name="form-name" value="contact" />
+        <p hidden>
+          <label>
+            Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your name:
+            <br />
+            <input type="text" name="name" onChange={handleChange} />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your email:
+            <br />
+            <input type="email" name="email" onChange={handleChange} />
+          </label>
+        </p>
+        <p>
+          <label>
+            Message:
+            <br />
+            <textarea name="message" onChange={handleChange} />
+          </label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
           <SponsorText>Feel Free To <a href="mailto:mcronin@hershey.k12.pa.us">Reach Out</a> To Us For Any Reason.  We’re Happy To Help!</SponsorText>
           <ContactMobileWrapper>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>President<br></br>📩</a></ContactMobileText>
