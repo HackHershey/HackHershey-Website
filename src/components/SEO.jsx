@@ -84,6 +84,7 @@ const SEO = () => {
     <Helmet>
       <html lang={config.siteLanguage} />
       <title>{title}</title>
+      <meta name="google-site-verification" content="07ivMPeHcjrBTj5EYhAGNGWMYDR3cRNM06yfITP2ovA" />
       <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
