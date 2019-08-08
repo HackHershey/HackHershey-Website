@@ -209,14 +209,13 @@ const Index = () => (
       <Hero offset={0}>
         <BigTitle style={{ textAlign:'center'}}>HackHershey</BigTitle>
         <Subtitle style={{ textAlign:'center'}}>Hershey High School's very own hackathon!<br /><br /> Date TBD</Subtitle>
-        <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+        <form name="contact" netlify-honeypot="bot-field" data-netlify="true">
           <input type="hidden" name="bot-field" />
           <label>
             Email
             <input type="email" name="email" id="email" />
           </label>
           <button type="submit">Send</button>
-          <input type="reset" value="Clear" />
         </form>
       </Hero>
 
