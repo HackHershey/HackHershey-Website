@@ -229,7 +229,6 @@ const Index = () => (
         <form
         name="contact"
         method="post"
-        action="/index/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}
