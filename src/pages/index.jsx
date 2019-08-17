@@ -121,7 +121,7 @@ display: block;
 }
 `
 const FAQSpacer = styled.div`
-${tw`flex flex-wrap justify-between sm:py-40 md:p-0 lg:py-8`};
+${tw`flex flex-wrap justify-between sm:py-48 md:p-0 lg:py-8`};
 display: block;
 @media (max-width: 1200px) {
   grid-gap: 3rem;
@@ -143,7 +143,7 @@ display: block;
 }
 `
 const ContactSpacer = styled.div`
-${tw`flex flex-wrap justify-between pt-8 md:p-8 lg:py-10 xl:pt-0`};
+${tw`flex flex-wrap justify-between pt-16 md:p-8 lg:py-10 xl:pt-0`};
 display: block;
 @media (max-width: 1200px) {
   grid-gap: 3rem;
