@@ -110,7 +110,7 @@ const MapWrapper = styled.div`
 `
 {/*spacers are named after section beneth them...ik this is garbage code. sorry.*/}
 const AboutSpacer = styled.div`
-${tw`flex flex-wrap justify-between sm:py-32 md:p-0 lg:py-12`};
+${tw`flex flex-wrap justify-between sm:py-40 md:p-0 lg:py-12`};
 display: block;
 @media (max-width: 1200px) {
   grid-gap: 3rem;

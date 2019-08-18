@@ -17,5 +17,5 @@ export const DividerMiddle = styled(Divider)`
 
 export const DividerMobile = styled(Divider)`
 ${tw`visible md:invisible`};
-  clip-path: polygon(0 5%, 100% 10%, 100% 90%, 0 85%);
+  clip-path: polygon(0 1%, 100% 6%, 100% 90%, 0 85%);
 `
