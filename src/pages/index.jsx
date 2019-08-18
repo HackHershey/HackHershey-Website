@@ -112,14 +112,7 @@ const MapMobileWrapper = styled.div`
   ${tw`flex flex-wrap justify-between md:hidden`};
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(2, 1fr);
-  @media (max-width: 1200px) {
-    grid-gap: 3rem;
-  }
-  @media (max-width: 900px) {
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
-  }
+  grid-template-columns: repeat(1, 1fr);
 `
 
 {/*spacers are named after section beneth them...ik this is garbage code. sorry.*/}
