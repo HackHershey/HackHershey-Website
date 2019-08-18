@@ -132,7 +132,7 @@ display: block;
 }
 `
 const SponsorSpacer = styled.div`
-${tw`flex flex-wrap justify-between sm:py-16 md:py-4 lg:py-8`};
+${tw`flex flex-wrap justify-between sm:py-10 md:py-4 lg:py-8`};
 display: block;
 @media (max-width: 1200px) {
   grid-gap: 3rem;
