@@ -310,6 +310,13 @@ const Index = () => (
             Michael Cronin<br></br>Untitled<br></br>📩
             </ContactCard>
           </ContactWrapper>
+
+          <MapMobileWrapper>
+            <MapMobileCard title="See You There!">
+              HackHershey will take place at Hershey High School on December XX, 2019
+              <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
+            </MapMobileCard>
+          </MapMobileWrapper>
           
           <MapSpacer></MapSpacer>
 
@@ -327,7 +334,7 @@ const Index = () => (
               <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
             </MapMobileCard>
           </MapMobileWrapper>
-          
+
         </Inner>
       </Contact>
 
