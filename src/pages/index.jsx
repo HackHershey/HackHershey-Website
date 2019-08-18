@@ -74,7 +74,7 @@ const SponsorsWrapper = styled.div`
   }
 `
 const ContactWrapper = styled.div`
-  ${tw`flex flex-wrap justify-between invisible md:visible`};
+  ${tw`flex-wrap justify-between hidden md:flex`};
   display: grid;
   grid-gap: 0rem;
   grid-template-columns: repeat(3, 1fr);
