@@ -110,7 +110,7 @@ const MapWrapper = styled.div`
   }
 `
 const MapMobileWrapper = styled.div`
-  ${tw`flex flex-wrap justify-between md:hidden pt-16`};
+  ${tw`flex flex-wrap justify-between md:hidden pt-36`};
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(1, 1fr);
@@ -140,7 +140,7 @@ display: block;
 }
 `
 const SponsorSpacer = styled.div`
-${tw`flex flex-wrap justify-between sm:py-2 md:py-4 lg:py-8`};
+${tw`flex flex-wrap justify-between sm:py-0 md:py-4 lg:py-8`};
 display: block;
 @media (max-width: 1200px) {
   grid-gap: 3rem;
@@ -151,7 +151,7 @@ display: block;
 }
 `
 const ContactSpacer = styled.div`
-${tw`flex flex-wrap justify-between pt-24 md:p-8 lg:py-8 xl:pt-0`};
+${tw`flex flex-wrap justify-between pt-36 md:p-8 lg:py-8 xl:pt-0`};
 display: block;
 @media (max-width: 1200px) {
   grid-gap: 3rem;
