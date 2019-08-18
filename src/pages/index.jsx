@@ -9,6 +9,7 @@ import FAQCard from '../components/FAQCard'
 import AboutCard from '../components/AboutCard'
 import ContactCard from '../components/ContactCard'
 import MapCard from '../components/MapCard'
+import MapMobileCard from '../components/MapMobileCard'
 
 //Elements
 import Inner from '../elements/Inner'
