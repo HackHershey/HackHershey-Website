@@ -108,6 +108,20 @@ const MapWrapper = styled.div`
     grid-gap: 2rem;
   }
 `
+const MapMobileWrapper = styled.div`
+  ${tw`flex flex-wrap justify-between md:hidden`};
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  @media (max-width: 1200px) {
+    grid-gap: 3rem;
+  }
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+`
+
 {/*spacers are named after section beneth them...ik this is garbage code. sorry.*/}
 const AboutSpacer = styled.div`
 ${tw`flex flex-wrap justify-between sm:py-40 md:p-0 lg:py-12`};
@@ -312,6 +326,13 @@ const Index = () => (
             </MapCard>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3043.9623490138765!2d-76.64327938416601!3d40.2765865793817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8a4b34b4586cb%3A0xf9fdad88180af9dc!2s550+Homestead+Rd%2C+Hershey%2C+PA+17033!5e0!3m2!1sen!2sus!4v1562268471292!5m2!1sen!2sus" width="600" height="400" frameborder="0"></iframe>
           </MapWrapper>
+
+          <MapMobileWrapper>
+            <MapCard title="See You There!">
+              HackHershey will take place at Hershey High School on December XX, 2019
+              <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
+            </MapCard>
+          </MapMobileWrapper>
         </Inner>
       </Contact>
 
