@@ -314,17 +314,20 @@ const Index = () => (
           <MapSpacer></MapSpacer>
 
           <MapWrapper> {/*use about box w/ shadow and the tirangle title*/}
-            <MapMobileCard title="See You There!">
-              HackHershey will take place at Hershey High School on December XX, 2019
-              <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
-            </MapMobileCard>
-
             <MapCard title="See You There!">
               HackHershey will take place at Hershey High School on December XX, 2019
               <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
             </MapCard>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3043.9623490138765!2d-76.64327938416601!3d40.2765865793817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8a4b34b4586cb%3A0xf9fdad88180af9dc!2s550+Homestead+Rd%2C+Hershey%2C+PA+17033!5e0!3m2!1sen!2sus!4v1562268471292!5m2!1sen!2sus" width="600" height="400" frameborder="0"></iframe>
           </MapWrapper>
+
+          <MapMobileWrapper>
+            <MapMobileCard title="See You There!">
+              HackHershey will take place at Hershey High School on December XX, 2019
+              <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
+            </MapMobileCard>
+          </MapMobileWrapper>
+          
         </Inner>
       </Contact>
 
