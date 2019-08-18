@@ -17,7 +17,7 @@ const Text = styled.div`
   ${tw`opacity-75 font-sans text-xxs lg:text-s xl:text-base text-midnightBlue`};
 `
 const Title = styled.div`
-  ${tw`text-midnightBlue uppercase text-sm lg:text-lg xl:text-xl tracking-wide font-sans -mt-8`};
+  ${tw`text-midnightBlue uppercase text-sm lg:text-lg xl:text-xl tracking-wide font-sans`};
 `
 
 const FAQCard = ({ title, link, children, bg }) => (
