@@ -110,7 +110,7 @@ const MapWrapper = styled.div`
   }
 `
 const MapMobileWrapper = styled.div`
-  ${tw`flex flex-wrap justify-between md:hidden pt-36`};
+  ${tw`flex flex-wrap justify-between md:hidden mt-36`};
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(1, 1fr);
