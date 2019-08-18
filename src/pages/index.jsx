@@ -74,7 +74,7 @@ const SponsorsWrapper = styled.div`
   }
 `
 const ContactWrapper = styled.div`
-  ${tw`flex-wrap justify-between hidden md:flex`};
+  ${tw`flex flex-wrap justify-between invisible md:visible`};
   display: grid;
   grid-gap: 0rem;
   grid-template-columns: repeat(3, 1fr);
@@ -290,6 +290,12 @@ const Index = () => (
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>Untitled<br></br>📩</a></ContactMobileText>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>Untitled<br></br>📩</a></ContactMobileText>
           </ContactMobileWrapper>
+          <MapMobileWrapper>
+            <MapMobileCard title="See You There!">
+              HackHershey will take place at Hershey High School on December XX, 2019
+              <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
+            </MapMobileCard>
+          </MapMobileWrapper>
           <ContactWrapper>
           <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
           Michael Cronin<br></br>President<br></br>📩
@@ -310,13 +316,6 @@ const Index = () => (
             Michael Cronin<br></br>Untitled<br></br>📩
             </ContactCard>
           </ContactWrapper>
-
-          <MapMobileWrapper>
-            <MapMobileCard title="See You There!">
-              HackHershey will take place at Hershey High School on December XX, 2019
-              <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
-            </MapMobileCard>
-          </MapMobileWrapper>
           
           <MapSpacer></MapSpacer>
 
