@@ -340,7 +340,7 @@ const Index = () => (
 
       <FooterText>
         Made with ❤️️ by The HackHershey Team.{' '} <br></br>
-        Check out our <a href="https://github.com/mcronin03/HackHershey-Website">Github Repository</a>.
+        Check out our <a href="https://github.com/mcronin03/HackHershey-Website" target="_blank" rel="noopener">Github Repository</a>.
       </FooterText>
     </Parallax>
   </>
