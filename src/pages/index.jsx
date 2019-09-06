@@ -284,11 +284,11 @@ const Index = () => (
           <SponsorText>Feel Free To <a href="mailto:mcronin@hershey.k12.pa.us">Reach Out</a> To Us For Any Reason.  We’re Happy To Help!</SponsorText>
           <ContactMobileWrapper>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>President<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>Sponsorships<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>Advertizing<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>Treasurer<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>Untitled<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>Untitled<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Pieter Verbeek<br></br>Sponsorships<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Nick Martin<br></br>Advertizing<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">William Miller<br></br>Hacker Experience<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Paul Ioffreda<br></br>Food Coordinator<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">David Randall<br></br>Volunteer Coordinator<br></br>📩</a></ContactMobileText>
           </ContactMobileWrapper>
           <MapMobileWrapper>
             <MapMobileCard title="See You There!">
@@ -297,23 +297,23 @@ const Index = () => (
             </MapMobileCard>
           </MapMobileWrapper>
           <ContactWrapper>
-          <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
-          Michael Cronin<br></br>President<br></br>📩
+            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
+              Michael Cronin<br></br>President<br></br>📩
             </ContactCard>
             <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
-            Michael Cronin<br></br>Sponsorships<br></br>📩
+              Pieter Verbeek<br></br>Sponsorships<br></br>📩
             </ContactCard>
             <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
-            Michael Cronin<br></br>Advertizing<br></br>📩
+              Nick Martin<br></br>Advertizing<br></br>📩
             </ContactCard>
             <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
-            Michael Cronin<br></br>Treasurer<br></br>📩
+              William Miller<br></br>Hacker Experience<br></br>📩
             </ContactCard>
             <ContactCard photo= {Michael}bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
-            Michael Cronin<br></br>Untitled<br></br>📩
+              Paul Ioffreda<br></br>Food Coordinator<br></br>📩
             </ContactCard>
             <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
-            Michael Cronin<br></br>Untitled<br></br>📩
+              David Randall<br></br>Volunteer Coordinator<br></br>📩
             </ContactCard>
           </ContactWrapper>
           
