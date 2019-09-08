@@ -32,6 +32,7 @@ import coders2 from "../images/Coders2.png"
 import Prospectus from "../images/SponsorshipProspectus.pdf"
 
 import Michael from "../images/Michael.png"
+import Will from "../images/Will.png"
 
 const AboutWrapper = styled.div`
   ${tw`flex flex-wrap justify-between`};
@@ -286,7 +287,7 @@ const Index = () => (
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>President<br></br>📩</a></ContactMobileText>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Pieter Verbeek<br></br>Sponsorships<br></br>📩</a></ContactMobileText>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Nick Martin<br></br>Advertizing<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">William Miller<br></br>Hacker Experience<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Will Miller<br></br>Treasurer<br></br>📩</a></ContactMobileText>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Paul Ioffreda<br></br>Food Coordinator<br></br>📩</a></ContactMobileText>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">David Randall<br></br>Volunteer Coordinator<br></br>📩</a></ContactMobileText>
           </ContactMobileWrapper>
@@ -306,8 +307,8 @@ const Index = () => (
             <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
               Nick Martin<br></br>Advertizing<br></br>📩
             </ContactCard>
-            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
-              William Miller<br></br>Hacker Experience<br></br>📩
+            <ContactCard photo= {Will} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
+              Will Miller<br></br>Treasurer<br></br>📩
             </ContactCard>
             <ContactCard photo= {Michael}bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
               Paul Ioffreda<br></br>Food Coordinator<br></br>📩
