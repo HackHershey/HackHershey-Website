@@ -305,7 +305,7 @@ const Index = () => (
               Pieter Verbeek<br></br>Sponsorships<br></br>📩
             </ContactCard>
             <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
-              Nick Martin<br></br>Advertizing<br></br>📩
+              Nick Martin<br></br>Publicity<br></br>📩
             </ContactCard>
             <ContactCard photo= {Will} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
               Will Miller<br></br>Treasurer<br></br>📩
