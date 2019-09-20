@@ -286,9 +286,9 @@ const Index = () => (
           <ContactMobileWrapper>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>President<br></br>📩</a></ContactMobileText>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Pieter Verbeek<br></br>Sponsorships<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Nick Martin<br></br>Advertizing<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Nick Martin<br></br>Publicity<br></br>📩</a></ContactMobileText>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Will Miller<br></br>Treasurer<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Paul Ioffreda<br></br>Food Coordinator<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Paul Ioffreda<br></br>Undecided<br></br>📩</a></ContactMobileText>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">David Randall<br></br>Volunteer Coordinator<br></br>📩</a></ContactMobileText>
           </ContactMobileWrapper>
           <MapMobileWrapper>
@@ -311,7 +311,7 @@ const Index = () => (
               Will Miller<br></br>Treasurer<br></br>📩
             </ContactCard>
             <ContactCard photo= {Michael}bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
-              Paul Ioffreda<br></br>Food Coordinator<br></br>📩
+              Paul Ioffreda<br></br>Undecided<br></br>📩
             </ContactCard>
             <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
               David Randall<br></br>Volunteer Coordinator<br></br>📩
@@ -320,7 +320,7 @@ const Index = () => (
           
           <MapSpacer></MapSpacer>
 
-          <MapWrapper> {/*use about box w/ shadow and the tirangle title*/}
+          <MapWrapper>
             <MapCard title="See You There!">
               HackHershey will take place at Hershey High School on December XX, 2019
               <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
