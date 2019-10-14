@@ -216,7 +216,7 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle style={{ textAlign:'center'}}>HackHershey</BigTitle>
-        <Subtitle style={{ textAlign:'center'}}>Hershey High School's very own hackathon!<br /><br /> Date TBD</Subtitle>
+        <Subtitle style={{ textAlign:'center'}}>Hershey High School's very own hackathon!<br /><br /> December 14, 2019</Subtitle>
       </Hero>
 
       <AboutSpacer></AboutSpacer>
@@ -259,7 +259,7 @@ const Index = () => (
             Yes! HackHershey will have plenty of free food, Including Breakfast, lunch, dinner, and snacks!
           </FAQCard>
           <FAQCard title="When is HackHershey" bg= "${props => props.bg}">
-            HackHershey will take place at Hershey High School on --- TBD!
+            HackHershey will take place at Hershey High School on Saturday, December 14, 2019!
           </FAQCard>
         </FAQWrapper>
       </FAQ>
@@ -289,7 +289,7 @@ const Index = () => (
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Nick Martin<br></br>Publicity<br></br>📩</a></ContactMobileText>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Will Miller<br></br>Treasurer<br></br>📩</a></ContactMobileText>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Paul Ioffreda<br></br>Undecided<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">David Randall<br></br>Volunteer Coordinator<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">David Randall<br></br>Undecided<br></br>📩</a></ContactMobileText>
           </ContactMobileWrapper>
           <MapMobileWrapper>
             <MapMobileCard title="See You There!">
@@ -314,7 +314,7 @@ const Index = () => (
               Paul Ioffreda<br></br>Undecided<br></br>📩
             </ContactCard>
             <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
-              David Randall<br></br>Volunteer Coordinator<br></br>📩
+              David Randall<br></br>Undecided<br></br>📩
             </ContactCard>
           </ContactWrapper>
           
@@ -322,7 +322,7 @@ const Index = () => (
 
           <MapWrapper>
             <MapCard title="See You There!">
-              HackHershey will take place at Hershey High School on December XX, 2019
+              HackHershey will take place at Hershey High School on December 14, 2019
               <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
             </MapCard>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3043.9623490138765!2d-76.64327938416601!3d40.2765865793817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8a4b34b4586cb%3A0xf9fdad88180af9dc!2s550+Homestead+Rd%2C+Hershey%2C+PA+17033!5e0!3m2!1sen!2sus!4v1562268471292!5m2!1sen!2sus" width="600" height="400" frameborder="0"></iframe>
@@ -330,7 +330,7 @@ const Index = () => (
 
           <MapMobileWrapper>
             <MapMobileCard title="See You There!">
-              HackHershey will take place at Hershey High School on December XX, 2019
+              HackHershey will take place at Hershey High School on December 14, 2019
               <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
             </MapMobileCard>
           </MapMobileWrapper>
