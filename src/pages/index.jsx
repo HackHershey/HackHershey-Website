@@ -154,7 +154,7 @@ display: block;
 }
 `
 const ContactSpacer = styled.div`
-${tw`flex flex-wrap justify-between pt-64 md:p-8 lg:-my-24 xl:pt-0`};
+${tw`flex flex-wrap justify-between pt-64 md:p-8 lg:p-8 xl:pt-0`};
 display: block;
 @media (max-width: 1200px) {
   grid-gap: 3rem;
@@ -281,7 +281,7 @@ const Index = () => (
 
       <ContactSpacer></ContactSpacer>
 
-      <Contact offset={3.1}>
+      <Contact offset={3}>
         <Inner>
           <BlackTitle>Contact Us!</BlackTitle>
           <SponsorText>Feel Free To <a href="mailto:hackhershey@gmail.com">Reach Out</a> To Us For Any Reason.  We’re Happy To Help!</SponsorText>
