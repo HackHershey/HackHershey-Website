@@ -5,9 +5,10 @@ import tw from 'tailwind.macro'
 
 const Wrapper = styled.div`
   ${tw`flex flex-col rounded-full lg:flex-row items-center`};
-  background: gray;
+  background: chocolate;
+  opacity: .25;
   &:hover {
-    background: chocolate;
+    opacity: 1;
   }
 `
 const Text = styled.div`
