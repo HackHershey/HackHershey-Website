@@ -281,7 +281,7 @@ const Index = () => (
 
       <ContactSpacer></ContactSpacer>
 
-      <Contact offset={3}>
+      <Contact offset={3.2}>
         <Inner>
           <BlackTitle>Contact Us!</BlackTitle>
           <SponsorText>Feel Free To <a href="mailto:hackhershey@gmail.com">Reach Out</a> To Us For Any Reason.  We’re Happy To Help!</SponsorText>
