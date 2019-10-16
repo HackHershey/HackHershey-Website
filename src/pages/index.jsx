@@ -32,6 +32,7 @@ import coders2 from "../images/Coders2.png"
 import Prospectus from "../images/SponsorshipProspectus.pdf"
 
 import Michael from "../images/Michael.png"
+import Nick from "../images/Nick.png"
 import Will from "../images/Will.png"
 
 const AboutWrapper = styled.div`
@@ -282,32 +283,32 @@ const Index = () => (
       <Contact offset={3.2}>
         <Inner>
           <BlackTitle>Contact Us!</BlackTitle>
-          <SponsorText>Feel Free To <a href="mailto:mcronin@hershey.k12.pa.us">Reach Out</a> To Us For Any Reason.  We’re Happy To Help!</SponsorText>
+          <SponsorText>Feel Free To <a href="mailto:hackhershey@gmail.com">Reach Out</a> To Us For Any Reason.  We’re Happy To Help!</SponsorText>
           <ContactMobileWrapper>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>President<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Pieter Verbeek<br></br>Sponsorships<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Nick Martin<br></br>Publicity<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Will Miller<br></br>Treasurer<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:pverbeek@hershey.k12.pa.us">Pieter Verbeek<br></br>Sponsorships<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:nmartin@hershey.k12.pa.us">Nick Martin<br></br>Publicity<br></br>📩</a></ContactMobileText>
+            {/*<ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Will Miller<br></br>Treasurer<br></br>📩</a></ContactMobileText>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Paul Ioffreda<br></br>Undecided<br></br>📩</a></ContactMobileText>
-            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">David Randall<br></br>Undecided<br></br>📩</a></ContactMobileText>
+            <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">David Randall<br></br>Undecided<br></br>📩</a></ContactMobileText>*/}
           </ContactMobileWrapper>
           <MapMobileWrapper>
             <MapMobileCard title="See You There!">
-              HackHershey will take place at Hershey High School on December XX, 2019
+              HackHershey will take place at Hershey High School on December 14, 2019
               <br /><br /><br /><br />550 Homestead Rd, Hershey, PA 17033
             </MapMobileCard>
           </MapMobileWrapper>
           <ContactWrapper>
-            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
+            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin@hershey.k12.pa.us">
               Michael Cronin<br></br>President<br></br>📩
             </ContactCard>
-            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
+            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:pverbeek@hershey.k12.pa.us">
               Pieter Verbeek<br></br>Sponsorships<br></br>📩
             </ContactCard>
-            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
+            <ContactCard photo= {Nick} bg= "${props => props.bg}" link = "mailto:nmartin@hershey.k12.pa.us">
               Nick Martin<br></br>Publicity<br></br>📩
             </ContactCard>
-            <ContactCard photo= {Will} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
+            {/*<ContactCard photo= {Will} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
               Will Miller<br></br>Treasurer<br></br>📩
             </ContactCard>
             <ContactCard photo= {Michael}bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
@@ -315,7 +316,7 @@ const Index = () => (
             </ContactCard>
             <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
               David Randall<br></br>Undecided<br></br>📩
-            </ContactCard>
+          </ContactCard>*/}
           </ContactWrapper>
           
           <MapSpacer></MapSpacer>
