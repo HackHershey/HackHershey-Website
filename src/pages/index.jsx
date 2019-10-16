@@ -270,7 +270,7 @@ const Index = () => (
 
       <Sponsors offset={2.1}>
         <BlackTitle>Our Past Sponsors</BlackTitle>
-        <SponsorText>Interested in sponsoring HackHershey?  Check out our <a href={Prospectus} target="_blank">sponsorship packet</a> and email our sponsorship coordinator at <a href="mailto:mcronin@hershey.k12.pa.us">mcronin@hershey.k12.pa.us</a></SponsorText>
+        <SponsorText>Interested in sponsoring HackHershey?  Check out our <a href={Prospectus} target="_blank">sponsorship packet</a> and email our <a href="mailto:pverbeek@hershey.k12.pa.us" target="_blank">sponsorship coordinator</a>.</SponsorText>
         <br /><br />
         <td style={{ textAlign:'center'}} onClick={()=> window.open("https://www.hersheys.com", "_blank", "noopener")}><SponsorsPhotos src={HersheyLogo} alt="The Hershey Company" /></td>
         <SponsorsWrapper>
