@@ -284,7 +284,7 @@ const Index = () => (
       <Contact offset={3.2}>
         <Inner>
           <BlackTitle>Contact Us!</BlackTitle>
-          <SponsorText>Feel Free To <a href="mailto:hackhershey@gmail.com">Reach Out</a> To Us For Any Reason.  We’re Happy To Help!</SponsorText>
+          <SponsorText>Meet our Leadership Team!  Feel Free To <a href="mailto:hackhershey@gmail.com">Reach Out</a> To Us For Any Reason.  We’re Happy To Help!</SponsorText>
           <ContactMobileWrapper>
             <ContactMobileText><a href="mailto:mcronin@hershey.k12.pa.us">Michael Cronin<br></br>President<br></br>📩</a></ContactMobileText>
             <ContactMobileText><a href="mailto:pverbeek@hershey.k12.pa.us">Pieter Verbeek<br></br>Sponsorships<br></br>📩</a></ContactMobileText>
