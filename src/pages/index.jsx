@@ -154,7 +154,7 @@ display: block;
 }
 `
 const ContactSpacer = styled.div`
-${tw`flex flex-wrap justify-between pt-64 md:p-8 lg:py-8 xl:pt-0`};
+${tw`flex flex-wrap justify-between pt-64 md:p-8 lg:py-0 xl:pt-0`};
 display: block;
 @media (max-width: 1200px) {
   grid-gap: 3rem;
@@ -165,7 +165,7 @@ display: block;
 }
 `
 const MapSpacer = styled.div`
-${tw`flex flex-wrap justify-between sm:py-24 md:p-10`};
+${tw`flex flex-wrap justify-between sm:py-24 md:p-24`};
 display: block;
 @media (max-width: 1200px) {
   grid-gap: 3rem;
