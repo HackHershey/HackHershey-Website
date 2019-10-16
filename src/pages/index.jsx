@@ -32,6 +32,7 @@ import coders2 from "../images/Coders2.png"
 import Prospectus from "../images/SponsorshipProspectus.pdf"
 
 import Michael from "../images/Michael.png"
+import Pieter from "../images/Pieter.png"
 import Nick from "../images/Nick.png"
 import Will from "../images/Will.png"
 
@@ -302,7 +303,7 @@ const Index = () => (
             <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin@hershey.k12.pa.us">
               Michael Cronin<br></br>President<br></br>📩
             </ContactCard>
-            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:pverbeek@hershey.k12.pa.us">
+            <ContactCard photo= {Pieter} bg= "${props => props.bg}" link = "mailto:pverbeek@hershey.k12.pa.us">
               Pieter Verbeek<br></br>Sponsorships<br></br>📩
             </ContactCard>
             <ContactCard photo= {Nick} bg= "${props => props.bg}" link = "mailto:nmartin@hershey.k12.pa.us">
