@@ -79,7 +79,7 @@ const SponsorsWrapper = styled.div`
 const ContactWrapper = styled.div`
   ${tw`flex flex-wrap justify-between invisible md:visible`};
   display: grid;
-  grid-gap: 0rem;
+  grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
   @media (max-width: 1200px) {
     grid-template-columns: repeat(3, 1fr);
