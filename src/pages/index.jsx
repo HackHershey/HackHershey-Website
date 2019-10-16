@@ -154,7 +154,7 @@ display: block;
 }
 `
 const ContactSpacer = styled.div`
-${tw`flex flex-wrap justify-between pt-64 md:p-8 lg:p-8 xl:pt-0`};
+${tw`flex flex-wrap justify-between pt-64 md:py-0 lg:p-8 xl:pt-0`};
 display: block;
 @media (max-width: 1200px) {
   grid-gap: 3rem;

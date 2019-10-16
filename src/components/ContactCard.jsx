@@ -5,11 +5,7 @@ import tw from 'tailwind.macro'
 
 const Wrapper = styled.div`
   ${tw`flex flex-col rounded-full lg:flex-row items-center`};
-  background: chocolate;
-  opacity: .25;
-  &:hover {
-    opacity: 1;
-  }
+  background: transparent;
 `
 const Text = styled.div`
 ${tw`pt-8`};
