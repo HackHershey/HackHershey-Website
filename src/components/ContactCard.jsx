@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import tw from 'tailwind.macro'
 
 const Wrapper = styled.div`
-  ${tw`flex flex-col rounded-full lg:flex-row items-center pt-8 px-8 pb-4`};
+  ${tw`flex flex-col rounded-full lg:flex-row items-center`};
   background: gray;
   &:hover {
     background: chocolate;
