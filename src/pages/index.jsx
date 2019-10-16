@@ -203,7 +203,7 @@ const SponsorText = styled.div`
   ${tw`text-midnightBlue text-md md:text-lg xl:text-xl tracking-wide font-sans mb-4`};
 `
 const ContactMobileText = styled.div`
-${tw`pt-8`};
+${tw`pt-24`};
 ${tw`text-midnightBlue uppercase text-xs md:text-lg xl:text-xl tracking-wide font-sans -mt-8 text-center`};
 `
 const FooterText = styled.footer`
