@@ -234,7 +234,7 @@ const Index = () => (
         <AboutWrapper>
           <AboutPhotos src={coders2} alt="HackHershey 2018 Coders" />
           <AboutCard title="A Great Start" bg= "${props => props.bg}">
-            Last year over 75 students from 25 different schools came to HackHershey to learn, get fresh swag, eat, play Smash, win amazing prizes, and create <a href="https://hackhershey.devpost.com/" target="_blank" rel="noopener">amazing projects!</a>  
+            Last year over 75 students from 20 different schools came to HackHershey to learn, code, eat, play Smash, win amazing prizes, and create <a href="https://hackhershey.devpost.com/" target="_blank" rel="noopener">amazing projects!</a>  
           </AboutCard>
         </AboutWrapper>
       </About>
