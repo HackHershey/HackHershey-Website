@@ -25,7 +25,7 @@ import Contact from '../views/Contact'
 
 //photos
 import CPRLogo from '../images/CPRLogo.png'
-import HarrisburgUniversityLogo from '../images/HarrisburgUniversityLogo.jpg'
+import CTDILogo from '../images/CTDILogo.jpg'
 import HersheyLogo from '../images/HersheyLogo.png'
 import coders from "../images/Coders.png"
 import coders2 from "../images/Coders2.png"
@@ -276,7 +276,7 @@ const Index = () => (
         <td style={{ textAlign:'center'}} onClick={()=> window.open("https://www.hersheys.com", "_blank", "noopener")}><SponsorsPhotos src={HersheyLogo} alt="The Hershey Company" /></td>
         <SponsorsWrapper>
           <td style={{ textAlign:'center'}} onClick={()=> window.open("http://www.forcollegeprep.com/", "_blank", "noopener")}><SponsorsPhotos src={CPRLogo} alt="College Preparations and Resources" /></td>
-          <td style={{ textAlign:'center'}} onClick={()=> window.open("https://harrisburgu.edu/", "_blank", "noopener")}><SponsorsPhotos src={HarrisburgUniversityLogo} alt="Harrisburg University" /></td>
+          <td style={{ textAlign:'center'}} onClick={()=> window.open("https://ctdi.com/", "_blank", "noopener")}><SponsorsPhotos src={CTDILogo} alt="Harrisburg University" /></td>
         </SponsorsWrapper>
       </Sponsors>
 
