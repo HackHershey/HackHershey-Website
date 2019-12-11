@@ -25,7 +25,7 @@ import Contact from '../views/Contact'
 
 //photos
 import CPRLogo from '../images/CPRLogo.png'
-import CTDILogo from '../images/CTDILogo.jpg'
+import CTDILogo from '../images/CTDILogo.png'
 import HersheyLogo from '../images/HersheyLogo.png'
 import coders from "../images/Coders.png"
 import coders2 from "../images/Coders2.png"
@@ -34,7 +34,6 @@ import Prospectus from "../images/SponsorshipProspectus.pdf"
 import Michael from "../images/Michael.png"
 import Pieter from "../images/Pieter.png"
 import Nick from "../images/Nick.png"
-import Will from "../images/Will.png"
 
 const AboutWrapper = styled.div`
   ${tw`flex flex-wrap justify-between`};
