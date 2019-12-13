@@ -30,6 +30,7 @@ import HersheyLogo from '../images/HersheyLogo.png'
 import coders from "../images/Coders.png"
 import coders2 from "../images/Coders2.png"
 import Prospectus from "../images/SponsorshipProspectus.pdf"
+import Schedule from "../images/WebsiteSchedule.pdf"
 
 import Michael from "../images/Michael.png"
 import Pieter from "../images/Pieter.png"
@@ -86,7 +87,7 @@ const ContactWrapper = styled.div`
     margin-top: -4rem;
   }
 `
-//hiddden (below) used to be invisible
+//hidden (below) used to be invisible
 const ContactMobileWrapper = styled.div`
   ${tw`flex flex-wrap justify-between visible md:hidden`}
   display: grid;
@@ -219,6 +220,7 @@ const Index = () => (
         <BigTitle style={{ textAlign:'center'}}>HackHershey</BigTitle>
         <Subtitle style={{ textAlign:'center'}}>Hershey High School's very own hackathon!<br /><br />December 14, 2019<br /><br />8am - 9pm</Subtitle>
         <Subtitle style={{ textAlign:'center'}}><a href="https://hackhershey.typeform.com/to/FeBqx2" target="_blank" rel="noopener">Sign Up Now!</a></Subtitle>
+        <Subtitle style={{ textAlign:'center'}}><a href={Schedule} target="_blank">Schedule of Events</a></Subtitle>
       </Hero>
 
       <AboutSpacer></AboutSpacer>
