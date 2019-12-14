@@ -222,7 +222,7 @@ const Index = () => (
         <Subtitle style={{ textAlign:'center'}}>Hershey High School's very own hackathon!<br /><br />December 14, 2019</Subtitle>
         <Subtitle style={{ textAlign:'center'}}><a href="https://hackhershey-2019.devpost.com/" target="_blank" rel="noopener">DevPost</a></Subtitle>
         <Subtitle style={{ textAlign:'center'}}><a href={Schedule} target="_blank">Schedule of Events</a></Subtitle>
-        <Subtitle style={{ textAlign:'center'}}><a href={Schedule} target="_blank">Opening Presentation</a></Subtitle>
+        <Subtitle style={{ textAlign:'center'}}><a href={Presentation} target="_blank">Opening Presentation</a></Subtitle>
       </Hero>
 
       <AboutSpacer></AboutSpacer>
