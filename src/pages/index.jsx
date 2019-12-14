@@ -31,6 +31,7 @@ import coders from "../images/Coders.png"
 import coders2 from "../images/Coders2.png"
 import Prospectus from "../images/SponsorshipProspectus.pdf"
 import Schedule from "../images/WebsiteSchedule.pdf"
+import Presentation from "../images/2019OpeningPresentation.pdf"
 
 import Michael from "../images/Michael.png"
 import Pieter from "../images/Pieter.png"
@@ -221,6 +222,7 @@ const Index = () => (
         <Subtitle style={{ textAlign:'center'}}>Hershey High School's very own hackathon!<br /><br />December 14, 2019</Subtitle>
         <Subtitle style={{ textAlign:'center'}}><a href="https://hackhershey-2019.devpost.com/" target="_blank" rel="noopener">DevPost</a></Subtitle>
         <Subtitle style={{ textAlign:'center'}}><a href={Schedule} target="_blank">Schedule of Events</a></Subtitle>
+        <Subtitle style={{ textAlign:'center'}}><a href={Schedule} target="_blank">Opening Presentation</a></Subtitle>
       </Hero>
 
       <AboutSpacer></AboutSpacer>
