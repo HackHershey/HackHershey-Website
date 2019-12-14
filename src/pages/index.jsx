@@ -219,7 +219,7 @@ const Index = () => (
       <Hero offset={0}>
         <BigTitle style={{ textAlign:'center'}}>HackHershey</BigTitle>
         <Subtitle style={{ textAlign:'center'}}>Hershey High School's very own hackathon!<br /><br />December 14, 2019</Subtitle>
-        <Subtitle style={{ textAlign:'center'}}><a href="https://hackhershey.typeform.com/to/FeBqx2" target="_blank" rel="noopener">Sign Up Now!</a></Subtitle>
+        <Subtitle style={{ textAlign:'center'}}><a href="https://hackhershey-2019.devpost.com/" target="_blank" rel="noopener">DevPost</a></Subtitle>
         <Subtitle style={{ textAlign:'center'}}><a href={Schedule} target="_blank">Schedule of Events</a></Subtitle>
       </Hero>
 
