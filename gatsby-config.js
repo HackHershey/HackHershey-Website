@@ -11,13 +11,13 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
-    {
+    /*{
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-144910986-1",
         head: true,
       },
-    },
+    }*/,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -25,12 +25,12 @@ module.exports = {
         name: 'images',
       },
     },
-    {
+    /*{
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: config.googleAnalyticsID,
       },
-    },
+    }*/,
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
