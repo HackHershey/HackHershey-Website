@@ -303,7 +303,7 @@ const Index = () => (
             </MapMobileCard>
           </MapMobileWrapper>
           <ContactWrapper>
-            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin@hershey.k12.pa.us">
+            <ContactCard photo= {Michael} bg= "${props => props.bg}" link = "mailto:mcronin_03@yahoo.com">
               Michael Cronin<br></br>President<br></br>📩
             </ContactCard>
             <ContactCard photo= {Pieter} bg= "${props => props.bg}" link = "mailto:pverbeek@hershey.k12.pa.us">
